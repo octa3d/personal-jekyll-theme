@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://octa3d.github.io/personal-jekyll-theme"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: ""
+title: "{ octas.space }"
+description: ""
+keywords: ""
 favicon: "/img/favicon.ico"
 
 ################
@@ -47,18 +47,7 @@ background-img: "../img/intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
@@ -85,7 +74,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+enable-gesture-navigation: false
 
 post-preview-words: 96
 
@@ -176,7 +165,7 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  About: ''
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
